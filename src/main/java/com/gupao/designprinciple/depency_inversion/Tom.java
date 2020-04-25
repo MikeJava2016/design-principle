@@ -2,8 +2,7 @@ package com.gupao.designprinciple.depency_inversion;
 
 public class Tom {
 
-    public void
-    study(ICourse  course) {
+    public void study(ICourse  course) {
         System.out.println(course.getName());
     }
     public void studyJavaCourse() {
